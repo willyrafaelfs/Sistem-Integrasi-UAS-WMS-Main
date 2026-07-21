@@ -1,0 +1,19 @@
+name: aero_wms_mobile
+description: "Aero WMS Mobile Scanner App"
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.2.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  http: ^1.2.0
+  shared_preferences: ^2.2.2
+  mobile_scanner: ^3.5.5
+  vibration: ^1.8.3
+  audioplayers: ^5.2.1
+
+flutter:
+  uses-material-design: true

@@ -1,0 +1,16 @@
+.sc-container, .ff-container { display: flex; flex-direction: column; gap: 1.5rem; }
+.tab-bar { display: flex; gap: 0.5rem; }
+.tab-btn { padding: 0.7rem 1.5rem; border-radius: var(--radius-full); border: 1px solid var(--border); background: var(--bg-surface); color: var(--text-secondary); font-weight: 600; cursor: pointer; transition: var(--transition); }
+.tab-btn.active { background: var(--primary); color: white; border-color: var(--primary); box-shadow: 0 4px 12px var(--primary-transparent); }
+.tab-btn:hover:not(.active) { border-color: var(--primary); color: var(--primary); }
+.secondary-btn.small { padding: 0.4rem 0.8rem; font-size: 0.8rem; }
+.modal-content.wide { max-width: 700px; }
+.form-group textarea { padding: 0.8rem; border-radius: var(--radius-md); border: 1px solid var(--border); background: var(--bg-surface); color: var(--text-primary); font-family: inherit; resize: vertical; }
+.form-group textarea:focus { outline: none; border-color: var(--primary); box-shadow: 0 0 0 3px var(--primary-transparent); }
+
+/* Status Timeline for Fulfillment */
+.status-timeline { display: flex; align-items: center; gap: 0.3rem; flex-wrap: wrap; }
+.timeline-step { padding: 0.3rem 0.6rem; border-radius: var(--radius-full); font-size: 0.7rem; font-weight: 600; background: var(--bg-surface); color: var(--text-muted); border: 1px solid var(--border); cursor: pointer; transition: var(--transition); }
+.timeline-step:hover { border-color: var(--primary); color: var(--primary); }
+.timeline-step.current { background: var(--primary); color: white; border-color: var(--primary); }
+.timeline-step.done { background: rgba(16, 185, 129, 0.15); color: #10b981; border-color: rgba(16, 185, 129, 0.3); }
