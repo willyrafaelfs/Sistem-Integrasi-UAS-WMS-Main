@@ -3,7 +3,7 @@
 Aplikasi **Warehouse Management System (WMS)** untuk mengelola gudang secara end-to-end: master data, inventori, inbound/putaway, outbound/picking, supply chain, fulfillment, hingga approval & audit log. Dilengkapi **login Google OAuth**, autentikasi berbasis token (Laravel Sanctum), dan **RBAC** (SuperAdmin / Manager / Operator).
 
 > Tugas Individu UAS — Mata Kuliah Sistem Integrasi
-## Identitas
+## Identitas Mahasiswa
 
 | Keterangan | Isi |
 |---|---|
